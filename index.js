@@ -13,3 +13,5 @@ console.log('ESTE UN NUEVO CAMBIO');
 console.log('show how push ');
 
 console.log('show a new branch');
+
+console.log('A new merge');
