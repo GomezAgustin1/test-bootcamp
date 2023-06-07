@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(79, 46, 90);
+  background: linear-gradient(90deg, rgba(79, 46, 90, 1) 15%, rgba(28, 24, 51, 1) 85%);
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.header {
+  position: relative;
+  padding-top: 80px;
+}
+
+.marvel-icon {
+  position: absolute;
+  margin-left: 100px;
+  left: 0;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  height: 90px;
+}
+
+.navbar ul {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 20px;
+
+  color: white;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+}
+
+.active {
+  font-size: 28px;
+  color: red;
+}
+
+.search {
+  display: inline;
+  vertical-align: middle;
+  padding-left: 20px;
+  border-left: 4px solid white;
+  height: 50px;
+}
+
+.user {
+  display: inline;
+  vertical-align: middle;
+  padding: 0 20px;
+  margin-right: 100px;
+}
+
+.marvel-studio {
+  display: block;
+  padding-top: 200px;
+  /* text-align: center; */
+  margin-left: 266px;
+  /* margin: 0 auto; */
+}
+
+.side {
+  width: 50vw;
+  height: 100;
+}
+
+.left {
+  padding: 0 0 0 104px;
+}
+
+.right {
+  position: absolute;
+  right: 250px;
+  bottom: -100px;
+  /* padding: 0 100px 0 0; */
+}
+
+.title {
+  margin: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Goldman', cursive;
+  color: white;
+  -webkit-text-stroke: 1px #e90909;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 120px;
+  padding-left: 34px;
+}
+
+.subtitle {
+  margin: 0;
+  font-family: 'Swanky and Moo Moo', cursive;
+  -webkit-text-stroke: 1px white;
+  font-size: 70px;
+  font-weight: bold;
+  /* text-align: center; */
+  line-height: 100px;
+  padding-left: 166px;
+  /* width: 73%; */
+}
+
+.description {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  /* width: 80%; */
+  font-size: 35px;
+  line-height: 37px;
+  /* font-weight: 200; */
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+
+  display: inline-block;
+}
+
+.play {
+  vertical-align: middle;
+  margin-right: 38px;
+
+  text-align: left;
+}
+
+.watch-now {
+  display: inline-block;
+  vertical-align: middle;
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+}
+
+.more-info {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 38px;
+  height: 65px;
+  width: 245px;
+  background-color: #232342;
+  border-radius: 46px;
+  text-align: center;
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  color: white;
+  border: 3px solid white;
+}
