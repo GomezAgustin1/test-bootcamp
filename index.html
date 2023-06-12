@@ -15,39 +15,41 @@
 
     <title>Spiderman's Landing Page</title>
   </head>
-  <body class="container">
+  <body>
     <header class="header">
-      <img class="marvel-logo" src="./marvel.png" alt="Marvel" />
+      <img class="marvel-icon" src="./marvel.png" alt="Marvel" width="227px" />
       <nav class="navbar">
-        <ul class="navlist">
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">COMICS</a></li>
-          <li><a href="#">GAMES</a></li>
-          <li><a href="#">NEWS</a></li>
+        <ul>
+          <li class="nav-link active"><a href="#">HOME</a></li>
+          <li class="nav-link"><a href="#">COMICS</a></li>
+          <li class="nav-link"><a href="#">GAMES</a></li>
+          <li class="nav-link"><a href="#">NEWS</a></li>
         </ul>
-        <img class="search" src="./search-icon.svg" alt="Search" />
-        <img class="user" src="./user.png" alt="user" />
+        <img class="search" src="./search-icon.svg" alt="Search" width="35px" />
+        <img class="user" src="./user.png" alt="user" width="110px" />
       </nav>
     </header>
-    <div class="left">
-      <img class="marvel-studio" src="./marvel-studio.png" alt="Marvel Studios" width="250" />
-      <h1 class="title">SPIDER-MAN</h1>
-      <h2 class="subtitle">The Beginning</h2>
-      <section>
-        <p class="description">
-          US cartoon character in Marvel Comics, created in 1962 by Stan Lee and Steve Ditko. He is Peter Parker, a
-          newspaper photographer who changes into Spider-Man to fight criminals. He has great strength and can climb
-          buildings. He has also appeared in films and television cartoons.
-        </p>
-      </section>
-      <div class="actions">
-        <img class="play" src="./play-icon.svg" alt="Play" width="80px" />
-        <p class="watch-now">watch now</p>
-        <button class="more-info">more info</button>
+    <main style="position: relative">
+      <div class="left side">
+        <img class="marvel-studio" src="./marvel-studio.png" alt="Marvel Studios" width="250" />
+        <h1 class="title">SPIDER-MAN</h1>
+        <h2 class="subtitle">The Beginning</h2>
+        <section>
+          <p class="description">
+            US cartoon character in Marvel Comics, created in 1962 by Stan Lee and Steve Ditko. He is Peter Parker, a
+            newspaper photographer who changes into Spider-Man to fight criminals. He has great strength and can climb
+            buildings. He has also appeared in films and television cartoons.
+          </p>
+        </section>
+        <figure>
+          <img class="play" src="./play-icon.svg" alt="Play" width="80px" />
+          <p class="watch-now">watch now</p>
+        </figure>
+        <p class="more-info">more info</p>
       </div>
-    </div>
-    <div class="right side">
-      <img class="spiderman" src="./spiderman.png" alt="spiderman" />
-    </div>
+      <div class="right side">
+        <img class="spiderman" src="./spiderman.png" alt="spiderman" width="1200px" />
+      </div>
+    </main>
   </body>
 </html>
